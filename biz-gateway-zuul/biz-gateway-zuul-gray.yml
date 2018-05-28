@@ -1,0 +1,11 @@
+gatewayZuulConfig:
+    verify: 
+       EXP01_2.0: tranCode,version,merId
+       EXP02_2.0: merOrderId,signType,hnapayOrderId
+       HNAPY_2.0: tranCode,version,signType
+    sign:
+       EXP01_2.0: tranCode,version,merId,hnapayOrderId
+       EXP02_2.0: merOrderId,signType,hnapayOrderId,orderStatus
+    redirectPath: 
+       - /hnapay/
+       - /test/

@@ -1,0 +1,10 @@
+zuul:
+    routes:
+      dic:
+        path:/dic/**
+            stripPrefix:true
+            serviceId:common-data
+      crm:
+        path:/crm/**
+            stripPrefix:true
+            serviceId:biz-crm
