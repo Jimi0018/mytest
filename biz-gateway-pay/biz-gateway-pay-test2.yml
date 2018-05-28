@@ -1,7 +1,0 @@
-transStr:
-    verify: 
-       WITHDRAW_3.0: transCode,transVersion,merId
-       BATCHPAY_3.0: transCode,transVersion,merId,batchNo
-    sign:
-       WITHDRAW_3.0: transCode,transVersion,merId,respCode
-       BATCHPAY_3.0: transCode,transVersion,merId,batchNo,respCode

@@ -1,7 +1,0 @@
-transStr:
-    verify:
-       QUERY_3.0: transCode,transVersion,merId,signType
-       HNAPAY_3.0: transCode,transVersion,merId,signType
-    sign:
-       QUERY_3.0: transCode,transVersion,merId,respCode,signType
-       HNAPAY_3.0: transCode,transVersion,merId,hnapayOrderId,respCode,signType

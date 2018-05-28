@@ -1,9 +1,0 @@
-transStr:
-    verify: 
-       EXP01_2.0: transCode,transVersion,merId
-       EXP02_2.0: merOrderId,signType,hnapayOrderId
-       HNAPAY_3.0: transCode,transVersion,merId,signType
-    sign:
-       EXP01_2.0: transCode,transVersion,merId,hnapayOrderId
-       EXP02_2.0: merOrderId,signType,hnapayOrderId,orderStatus
-       HNAPAY_3.0: transCode,transVersion,merId,hnapayOrderId,orderStatus,respCode,signType
